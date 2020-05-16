@@ -1,0 +1,26 @@
+import React from 'react';
+import logo from "./AGH.svg";
+import {Button, Container, Row} from "react-bootstrap";
+
+function Header(props) {
+    return (
+        <React.Fragment>
+            <header className="App-header">
+                <img src={logo} className="App-logo" alt="logo"/>
+                <h1>Flags Argument Tree</h1>
+                <h2 style={{fontWeight: "normal", fontSize:'1.45rem'}}>Project Studio 1</h2>
+                <h3 style={{fontSize: '1.2rem', fontWeight: "normal", fontStyle: 'italic'}}>Oskar Pawica & Maciej Kutyła</h3>
+                <Container>
+                    <Row className="p-2 mt-5">
+                        <Button variant="primary" className="m-auto" onClick={props.start}>Start</Button>
+                    </Row>
+                    <Row className="p-2">
+                        <Button variant="success" className="m-auto">Documentation</Button>
+                    </Row>
+                </Container>
+            </header>
+        </React.Fragment>
+    );
+}
+
+export default Header;

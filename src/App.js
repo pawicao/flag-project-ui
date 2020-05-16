@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
+import logo from './AGH.svg';
 import './App.css';
+import axios from 'axios';
+import {Image, Button, Row, Col, Container} from "react-bootstrap";
+import Quiz from "./Quiz";
+import Header from "./Header"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    state = {
+        question: null,
+        countries: []
+    };
+
+    resetQuiz =() => {
+        let endpoint = 'https://flag-project-api.herokuapp.com/getAll';
+        axios.get(endpoint).then(res => this.setState({
+                countries: res.data,
+                question: {
+                    id: 1,
+                    text: 'Does this flag have a red color?'
+                }
+            })
+        );
+    };
+
+    render() {
+        let content = this.state.question == null ? <Header start={this.resetQuiz}/> : <Quiz countries={this.state.countries} question={this.state.question} />;
+        return (
+            <div className="App">
+                {content}
+            </div>
+        );
+    }
 }
 
 export default App;

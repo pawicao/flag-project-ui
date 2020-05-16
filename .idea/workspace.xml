@@ -1,9 +1,382 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e2e043c-5ac8-44ec-8cbe-fdaaa1b78237" name="Default Changelist" comment="Header and Quiz classes together with logo and flags files">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ABW.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/AFG.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/AGO.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/AIA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ALA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ALB.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/AND.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ARE.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ARG.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ARM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ASM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ATA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ATF.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ATG.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/AUS.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/AUT.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/AZE.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BDI.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BEL.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BEN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BES.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BFA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BGD.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BGR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BHR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BHS.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BIH.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BLM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BLR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BLZ.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BMU.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BOL.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BRA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BRB.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BRN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BTN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BVT.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/BWA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CAF.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CAN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CCK.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CHE.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CHL.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CHN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CIV.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CMR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/COD.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/COG.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/COK.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/COL.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/COM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CPV.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CRI.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CUB.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CUW.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CXR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CYM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CYP.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/CZE.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/DEU.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/DJI.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/DMA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/DNK.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/DOM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/DZA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ECU.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/EGY.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ERI.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ESH.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ESP.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/EST.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ETH.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/FIN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/FJI.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/FLK.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/FRA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/FRO.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/FSM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GAB.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GBR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GEO.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GGY.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GHA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GIB.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GIN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GLP.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GMB.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GNB.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GNQ.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GRC.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GRD.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GRL.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GTM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GUF.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GUM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/GUY.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/HKG.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/HMD.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/HND.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/HRV.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/HTI.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/HUN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/IDN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/IMN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/IND.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/IOT.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/IRL.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/IRN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/IRQ.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ISL.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ISR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ITA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/JAM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/JEY.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/JOR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/JPN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/KAZ.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/KEN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/KGZ.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/KHM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/KIR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/KNA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/KOR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/KOS.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/KWT.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/LAO.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/LBN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/LBR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/LBY.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/LCA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/LIE.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/LKA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/LSO.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/LTU.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/LUX.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/LVA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MAC.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MAF.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MAR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MCO.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MDA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MDG.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MDV.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MEX.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MHL.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MKD.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MLI.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MLT.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MMR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MNE.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MNG.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MNP.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MOZ.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MRT.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MSR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MTQ.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MUS.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MWI.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MYS.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/MYT.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/NAM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/NCL.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/NER.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/NFK.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/NGA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/NIC.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/NIU.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/NLD.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/NOR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/NPL.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/NRU.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/NZL.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/OMN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/PAK.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/PAN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/PCN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/PER.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/PHL.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/PLW.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/PNG.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/POL.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/PRI.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/PRK.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/PRT.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/PRY.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/PSE.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/PYF.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/QAT.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/REU.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ROU.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/RUS.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/RWA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SAU.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SDN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SEN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SGP.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SGS.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SHN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SJM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SLB.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SLE.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SLV.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SMR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SOM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SPM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SRB.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SSD.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/STP.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SUR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SVK.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SVN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SWE.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SWZ.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SXM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SYC.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/SYR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/TCA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/TCD.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/TGO.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/THA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/TJK.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/TKL.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/TKM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/TLS.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/TON.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/TTO.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/TUN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/TUR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/TUV.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/TWN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/TZA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/UGA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/UKR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/UMI.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/URY.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/USA.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/UZB.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/VAT.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/VCT.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/VEN.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/VGB.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/VIR.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/VNM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/VUT.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/WLF.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/WSM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/YEM.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ZAF.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ZMB.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/flags/ZWE.SVG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AGH.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bwvBpZK6ai2ky7pX5FS9PIdH9v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e2e043c-5ac8-44ec-8cbe-fdaaa1b78237" name="Default Changelist" comment="" />
+      <created>1589555837734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589555837734</updated>
+      <workItem from="1589555839655" duration="4517000" />
+      <workItem from="1589567818392" duration="323000" />
+      <workItem from="1589581767858" duration="2733000" />
+      <workItem from="1589616718789" duration="8433000" />
+      <workItem from="1589666479457" duration="924000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Header and Quiz classes together with logo and flags files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header and Quiz classes together with logo and flags files" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1589667365792">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589667365792" />
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1589667145004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589667145004" />
+    <state x="639" y="306" width="584" height="212" key="Github.ShareDialog" timestamp="1589667180492">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="639" y="306" width="584" height="212" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1589667180492" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1589633044763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589633044763" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1589633044763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589633044763" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1589633044763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589633044763" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1589633044763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589633044763" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589667405947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1589667405947" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589666479086">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589666479086" />
+    <state x="462" y="144" width="611" height="536" key="find.popup" timestamp="1589558158180">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="462" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1589558158180" />
   </component>
 </project>
