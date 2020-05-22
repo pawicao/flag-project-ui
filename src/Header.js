@@ -8,8 +8,9 @@ function Header(props) {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo"/>
                 <h1>Flags Argument Tree</h1>
-                <h2 style={{fontWeight: "normal", fontSize:'1.45rem'}}>Project Studio 1</h2>
-                <h3 style={{fontSize: '1.2rem', fontWeight: "normal", fontStyle: 'italic'}}>Oskar Pawica & Maciej Kutyła</h3>
+                <h2 style={{fontWeight: "normal", fontSize: '1.45rem'}}>Project Studio 1</h2>
+                <h3 style={{fontSize: '1.2rem', fontWeight: "normal", fontStyle: 'italic'}}>Oskar Pawica & Maciej
+                    Kutyła</h3>
                 <Container>
                     <Row className="p-2 mt-5">
                         <Button variant="primary" className="m-auto" onClick={props.start}>Start</Button>

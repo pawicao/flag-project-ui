@@ -43,3 +43,7 @@ html {
     transform: rotate(360deg);
   }
 }
+
+.navbar-brand {
+  cursor: pointer;
+}
