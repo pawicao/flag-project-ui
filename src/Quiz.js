@@ -1,15 +1,18 @@
 import React, {Component} from 'react';
 import logo from './AGH.svg';
 import PropTypes from 'prop-types';
-import {Button, Col, Container, Image, Nav, Navbar, Row, Spinner} from "react-bootstrap";
+import {Button, Col, Container, Image, Nav, Navbar, OverlayTrigger, Row, Spinner, Tooltip} from "react-bootstrap";
 
 class Quiz extends Component {
+
     render() {
         let countriesListContent, buttons;
         if(this.props.isLoaded) {
             let countriesList = this.props.countries.map((item) =>
                 <Col xs={4} sm={3} md={2} className="p-4" key={item.code}>
-                    <Image fluid className="shadow" src={'flags/' + item.code + '.SVG'}/>
+                    <OverlayTrigger placement="top" overlay={<Tooltip id={item.code}>{item.name}</Tooltip>}>
+                        <Image fluid className="shadow" src={'flags/' + item.code + '.SVG'}/>
+                    </OverlayTrigger>
                 </Col>
             );
             countriesListContent = (
