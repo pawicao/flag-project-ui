@@ -59,6 +59,7 @@ class App extends Component {
     render() {
         let content = this.state.question == null ? <Header start={this.resetQuiz}/>
             : <Quiz countries={this.state.countries} question={this.state.question}
+                    faulty_countries={this.state.faulty_countries} truthy_countries={this.state.truthy_countries}
                     processQuestion={this.processQuestion} resetQuiz={this.resetQuiz}
                     isLoaded={this.state.isLoaded} /> ;
         return (
