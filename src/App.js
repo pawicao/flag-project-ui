@@ -12,6 +12,8 @@ class App extends Component {
     state = {
         question: null,
         countries: [],
+        faulty_countries: [],
+        truthy_countries: [],
         isLoaded: true
     };
 
@@ -22,6 +24,8 @@ class App extends Component {
         axios.get(App.API_URL + App.ENDPOINT_START)
             .then(res => this.setState({
                 countries: res.data.countries,
+                faulty_countries: res.data.faulty_countries,
+                truthy_countries: res.data.truthy_countries,
                 question: res.data.question,
                 isLoaded: true
             }))
@@ -36,12 +40,15 @@ class App extends Component {
         });
         axios.post(App.API_URL + App.ENDPOINT_QUESTION, {
             countries: this.state.countries,
-            question: this.state.question,
+            faulty_countries: this.state.faulty_countries,
+            truthy_countries: this.state.truthy_countries,
             answer: answer
         })
             .then(res => this.setState({
                 countries: res.data.countries,
                 question: res.data.question,
+                faulty_countries: res.data.faulty_countries,
+                truthy_countries: res.data.truthy_countries,
                 isLoaded: true
             }))
             .catch(function (error) {

@@ -83,6 +83,8 @@ class Quiz extends Component {
 
 Quiz.propTypes = {
     countries: PropTypes.array.isRequired,
+    faulty_countries: PropTypes.array.isRequired,
+    truthy_countries: PropTypes.array.isRequired,
     question: PropTypes.object.isRequired,
     processQuestion: PropTypes.func.isRequired,
     resetQuiz: PropTypes.func.isRequired,

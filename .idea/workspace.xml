@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1e2e043c-5ac8-44ec-8cbe-fdaaa1b78237" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quiz.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +76,8 @@
       <workItem from="1590228395316" duration="116000" />
       <workItem from="1590230329843" duration="919000" />
       <workItem from="1591208391634" duration="1814000" />
+      <workItem from="1591213710766" duration="75000" />
+      <workItem from="1591954094589" duration="531000" />
     </task>
     <task id="LOCAL-00001" summary="Header and Quiz classes together with logo and flags files">
       <created>1589667454305</created>
@@ -90,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590187361113</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tooltips with countries' names">
+      <created>1591213769231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591213769231</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,13 +109,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Header and Quiz classes together with logo and flags files" />
     <MESSAGE value="Added &quot;Loading&quot; state" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Loading&quot; state" />
+    <MESSAGE value="Tooltips with countries' names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tooltips with countries' names" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1590187358894">
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1591213767352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590187358894" />
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591213767352" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1589667145004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -130,14 +141,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591212393526" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1590187364236">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591213771583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590187364236" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591213742022">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591213771583" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591966218980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591213742021" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591966218980" />
     <state x="462" y="144" width="611" height="536" key="find.popup" timestamp="1589558158180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
