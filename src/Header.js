@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from "./AGH.svg";
-import {Button, Container, Row} from "react-bootstrap";
+import {Button, Container, Row, Spinner} from "react-bootstrap";
 
 function Header(props) {
     return (
@@ -13,7 +13,7 @@ function Header(props) {
                     Kutyła</h3>
                 <Container>
                     <Row className="p-2 mt-5">
-                        <Button variant="primary" className="m-auto" onClick={props.start}>Start</Button>
+                        {props.isLoaded ? (<Button variant="primary" className="m-auto" onClick={props.start}>Start</Button>) : (<Spinner animation="grow" role="status" className="mx-auto" />)}
                     </Row>
                     <Row className="p-2">
                         <Button variant="success" className="m-auto">Documentation</Button>

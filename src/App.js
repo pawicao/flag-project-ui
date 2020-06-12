@@ -12,6 +12,7 @@ class App extends Component {
     state = {
         question: null,
         countries: [],
+        initial_countries: [],
         faulty_countries: [],
         truthy_countries: [],
         isLoaded: true
@@ -24,6 +25,7 @@ class App extends Component {
         axios.get(App.API_URL + App.ENDPOINT_START)
             .then(res => this.setState({
                 countries: res.data.countries,
+                initial_countries: res.data.countries,
                 faulty_countries: res.data.faulty_countries,
                 truthy_countries: res.data.truthy_countries,
                 question: res.data.question,
@@ -57,9 +59,10 @@ class App extends Component {
     };
 
     render() {
-        let content = this.state.question == null ? <Header start={this.resetQuiz}/>
+        let content = this.state.question == null ? <Header start={this.resetQuiz} isLoaded={this.state.isLoaded} />
             : <Quiz countries={this.state.countries} question={this.state.question}
                     faulty_countries={this.state.faulty_countries} truthy_countries={this.state.truthy_countries}
+                    initial_countries={this.state.initial_countries}
                     processQuestion={this.processQuestion} resetQuiz={this.resetQuiz}
                     isLoaded={this.state.isLoaded} /> ;
         return (

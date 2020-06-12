@@ -47,3 +47,10 @@ html {
 .navbar-brand {
   cursor: pointer;
 }
+.hidden {
+  display: none !important;
+}
+
+.opacited {
+  opacity: 0.3;
+}

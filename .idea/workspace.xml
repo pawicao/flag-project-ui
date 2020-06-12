@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1e2e043c-5ac8-44ec-8cbe-fdaaa1b78237" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quiz.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +80,9 @@
       <workItem from="1591208391634" duration="1814000" />
       <workItem from="1591213710766" duration="75000" />
       <workItem from="1591954094589" duration="531000" />
+      <workItem from="1591966216267" duration="376000" />
+      <workItem from="1591967019860" duration="759000" />
+      <workItem from="1591970255434" duration="1118000" />
     </task>
     <task id="LOCAL-00001" summary="Header and Quiz classes together with logo and flags files">
       <created>1589667454305</created>
@@ -100,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591213769231</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New architecture">
+      <created>1591966310068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591966310068</updated>
+    </task>
+    <task id="LOCAL-00005" summary="New architecture">
+      <created>1591966383322</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591966383322</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,13 +129,14 @@
     <MESSAGE value="Header and Quiz classes together with logo and flags files" />
     <MESSAGE value="Added &quot;Loading&quot; state" />
     <MESSAGE value="Tooltips with countries' names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tooltips with countries' names" />
+    <MESSAGE value="New architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="New architecture" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1591966307118">
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1591966381850">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591966307118" />
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591966381850" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1589667145004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -125,30 +145,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="639" y="306" width="584" height="212" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1589667180492" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1591212393526">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1591971446620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591212393526" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1591212393526">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591971446620" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1591971446620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591212393526" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1591212393526">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591971446620" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1591971446620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591212393526" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1591212393526">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591971446620" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1591971446620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591212393526" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591966312274">
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591971446620" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591966391863">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591966312274" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591966218980">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591966391863" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591970289740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591966218980" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591970289740" />
     <state x="462" y="144" width="611" height="536" key="find.popup" timestamp="1589558158180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

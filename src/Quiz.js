@@ -7,30 +7,31 @@ class Quiz extends Component {
 
     render() {
         let countriesListContent, buttons;
-        if(this.props.isLoaded) {
-            let countriesList = this.props.countries.map((item) =>
+        let countriesList = this.props.initial_countries.map((item) => {
+            let equals = false;
+            for (let i=0; i<this.props.countries.length; i++) {
+                if (this.props.countries[i].code === item.code) {
+                    equals = true;
+                }
+            }
+            return (
                 <Col xs={4} sm={3} md={2} className="p-4" key={item.code}>
                     <OverlayTrigger placement="top" overlay={<Tooltip id={item.code}>{item.name}</Tooltip>}>
-                        <Image fluid className="shadow" src={'flags/' + item.code + '.SVG'}/>
+                        <Image fluid className={equals ? 'shadow' : 'shadow opacited'} src={'flags/' + item.code + '.SVG'}
+                        />
                     </OverlayTrigger>
                 </Col>
+
             );
-            countriesListContent = (
-                <React.Fragment>
-                    <p className="pt-3 pl-1 mb-0 text-left font-italic">Found {this.props.countries.length} flags
-                        matching the criteria.</p>
-                    <Row style={{alignItems: "center", justifyContent: "center"}}>{countriesList}</Row>
-                </React.Fragment>
-            );
-        }
-        else {
-            countriesListContent = (
-                <React.Fragment>
-                    <Spinner animation="grow" role="status" style={{marginTop:"1rem"}} />
-                    <p style={{paddingBottom: "1rem"}}>Please wait - we are analyzing the flags...</p>
-                </React.Fragment>
-            );
-        }
+        });
+        countriesListContent = (
+            <React.Fragment>
+                <p className="pt-3 pl-1 mb-0 text-left font-italic">Found {this.props.countries.length} flags
+                    matching the criteria.</p>
+                <Row style={{alignItems: "center", justifyContent: "center"}}>{countriesList}</Row>
+            </React.Fragment>
+        );
+
         if(this.props.question.id === 0) {
             buttons = (
               <div>
@@ -39,17 +40,28 @@ class Quiz extends Component {
             );
         }
         else {
-            buttons = (
-                <div>
-                    <Button disabled={!this.props.isLoaded} className="mx-2" variant="success" onClick={() => {
-                        this.props.processQuestion(true)
-                    }}>Yes</Button>
-                    <Button disabled={!this.props.isLoaded} className="mx-2" variant="danger" onClick={() => {
-                        this.props.processQuestion(false)
-                    }}>No</Button>
-                </div>
-            );
-
+            if(this.props.isLoaded) {
+                buttons = (
+                    <div>
+                        <Button className="mx-2" variant="success" onClick={() => {
+                            this.props.processQuestion(true)
+                        }}>Yes</Button>
+                        <Button className="mx-2" variant="danger" onClick={() => {
+                            this.props.processQuestion(false)
+                        }}>No</Button>
+                    </div>
+                )
+            }
+            else {
+                buttons = (
+                    <div>
+                        <React.Fragment>
+                            <Spinner animation="grow" role="status" style={{marginTop: '0.2rem'}} />
+                            <p style={{paddingBottom: "1rem"}}>Please wait - we are analyzing the flags...</p>
+                        </React.Fragment>
+                    </div>
+                );
+            }
         }
 
         return (
@@ -60,7 +72,7 @@ class Quiz extends Component {
                         Flags Project
                     </Navbar.Brand>
                     <Nav className="ml-md-auto flex-column flex-sm-row">
-                        <span className="mx-2 mb-2 mb-sm-0" style={{
+                        <span className={this.props.isLoaded ? "mx-2 mb-2 mb-sm-0" : "mx-2 mb-2 mb-sm-0 hidden"} style={{
                             display: 'inline-flex',
                             alignItems: 'center'
                         }}>
@@ -84,6 +96,7 @@ class Quiz extends Component {
 Quiz.propTypes = {
     countries: PropTypes.array.isRequired,
     faulty_countries: PropTypes.array.isRequired,
+    initial_countries: PropTypes.array.isRequired,
     truthy_countries: PropTypes.array.isRequired,
     question: PropTypes.object.isRequired,
     processQuestion: PropTypes.func.isRequired,
