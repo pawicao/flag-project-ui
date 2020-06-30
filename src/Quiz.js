@@ -57,7 +57,7 @@ class Quiz extends Component {
                     <div>
                         <React.Fragment>
                             <Spinner animation="grow" role="status" style={{marginTop: '0.2rem'}} />
-                            <p style={{paddingBottom: "1rem"}}>Please wait - we are analyzing the flags...</p>
+                            <p>Please wait - we are analyzing the flags...</p>
                         </React.Fragment>
                     </div>
                 );
@@ -69,7 +69,7 @@ class Quiz extends Component {
                 <Navbar sticky="top" className="shadow-sm bg-white flex-md-row flex-column">
                     <Navbar.Brand onClick={() => window.location.reload()}>
                         <Image className="quiz-agh" src={logo}/>
-                        Flags Project
+                        Flags Argument Tree
                     </Navbar.Brand>
                     <Nav className="ml-md-auto flex-column flex-sm-row">
                         <span className={this.props.isLoaded ? "mx-2 mb-2 mb-sm-0" : "mx-2 mb-2 mb-sm-0 hidden"} style={{

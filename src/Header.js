@@ -16,7 +16,7 @@ function Header(props) {
                         {props.isLoaded ? (<Button variant="primary" className="m-auto" onClick={props.start}>Start</Button>) : (<Spinner animation="grow" role="status" className="mx-auto" />)}
                     </Row>
                     <Row className="p-2">
-                        <Button variant="success" className="m-auto">Documentation</Button>
+                        <a className="mx-auto" href="/~pawicao/flag_project/FlagsArgumentTree-documentation.pdf" target="_blank"><Button variant="success" className="m-auto">Documentation</Button></a>
                     </Row>
                 </Container>
             </header>
